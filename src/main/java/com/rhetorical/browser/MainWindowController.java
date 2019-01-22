@@ -53,7 +53,7 @@ public class MainWindowController implements Initializable {
 
 		addressBar.addEventHandler(KeyEvent.KEY_PRESSED,  keyEventEventHandler);
 
-		webEngine.load(htLink + "www.duckduckgo.com");
+		webEngine.load(htLink + "www.start.duckduckgo.com");
 
 		//Fix stutter when first changing site
 		addressBar.getText();

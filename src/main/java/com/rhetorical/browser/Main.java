@@ -17,7 +17,7 @@ public class Main extends Application {
 
 	@Override
 	public void start(Stage stage) throws Exception {
-		URL url = Paths.get("src/main/java/com/rhetorical/browser/MainScene.fxml").toUri().toURL();
+		URL url = Paths.get("src/main/java/com/rhetorical/browser/fxml/MainScene.fxml").toUri().toURL();
 		Parent root = FXMLLoader.load(url);
 		stage.setTitle("Rhetorical's Browser");
 		stage.setScene(new Scene(root, 1250, 690));
